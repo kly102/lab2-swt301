@@ -1,0 +1,101 @@
+27-Jan-2024 20:53:44.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.17
+27-Jan-2024 20:53:44.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2023 23:31:38 UTC
+27-Jan-2024 20:53:44.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.17.0
+27-Jan-2024 20:53:44.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Jan-2024 20:53:44.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Jan-2024 20:53:44.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Jan-2024 20:53:44.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+27-Jan-2024 20:53:44.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+27-Jan-2024 20:53:44.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Jan-2024 20:53:44.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-10.1.17
+27-Jan-2024 20:53:44.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-10.1.17
+27-Jan-2024 20:53:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-10.1.17\conf\logging.properties
+27-Jan-2024 20:53:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jan-2024 20:53:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jan-2024 20:53:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jan-2024 20:53:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Jan-2024 20:53:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Jan-2024 20:53:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Jan-2024 20:53:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Jan-2024 20:53:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Jan-2024 20:53:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\apache-tomcat-10.1.17
+27-Jan-2024 20:53:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-10.1.17
+27-Jan-2024 20:53:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-10.1.17\temp
+27-Jan-2024 20:53:44.741 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Acer\AppData\Local\Microsoft\WindowsApps;;D:\java\IntelliJ IDEA Community Edition 2022.3\bin;;C:\Program Files\Azure Data Studio\bin;C:\Users\Acer\AppData\Local\Programs\Microsoft VS Code\bin;.]
+27-Jan-2024 20:53:44.923 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Jan-2024 20:53:44.938 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [404] milliseconds
+27-Jan-2024 20:53:44.980 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jan-2024 20:53:44.980 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.17]
+27-Jan-2024 20:53:44.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\new1.xml]
+27-Jan-2024 20:53:45.004 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/new1] in deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\new1.xml] has been ignored
+27-Jan-2024 20:53:45.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\new1.xml] has finished in [289] ms
+27-Jan-2024 20:53:45.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\SE1841.xml]
+27-Jan-2024 20:53:45.282 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SE1841] in deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\SE1841.xml] has been ignored
+27-Jan-2024 20:53:45.754 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jan-2024 20:53:45.768 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\SE1841.xml] has finished in [487] ms
+27-Jan-2024 20:53:45.768 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\WebApplication1.xml]
+27-Jan-2024 20:53:45.769 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+27-Jan-2024 20:53:46.095 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jan-2024 20:53:46.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\WebApplication1.xml] has finished in [341] ms
+27-Jan-2024 20:53:46.110 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.1.17\webapps\docs]
+27-Jan-2024 20:53:46.139 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.1.17\webapps\docs] has finished in [29] ms
+27-Jan-2024 20:53:46.139 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.1.17\webapps\examples]
+27-Jan-2024 20:53:46.406 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.1.17\webapps\examples] has finished in [267] ms
+27-Jan-2024 20:53:46.406 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.1.17\webapps\host-manager]
+27-Jan-2024 20:53:46.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.1.17\webapps\host-manager] has finished in [29] ms
+27-Jan-2024 20:53:46.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.1.17\webapps\manager]
+27-Jan-2024 20:53:46.461 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.1.17\webapps\manager] has finished in [25] ms
+27-Jan-2024 20:53:46.461 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.1.17\webapps\ROOT]
+27-Jan-2024 20:53:46.477 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.1.17\webapps\ROOT] has finished in [16] ms
+27-Jan-2024 20:53:46.483 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Jan-2024 20:53:46.520 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1581] milliseconds
+27-Jan-2024 20:53:48.508 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/new1]
+27-Jan-2024 20:53:48.523 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\new1.xml]
+27-Jan-2024 20:53:48.523 WARNING [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/new1] in deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\new1.xml] has been ignored
+27-Jan-2024 20:53:48.548 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\new1.xml] has finished in [26] ms
+27-Jan-2024 20:53:48.553 INFO [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/new1]] after start() had already been called. The second call will be ignored.
+27-Jan-2024 20:54:32.402 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/new1]
+27-Jan-2024 20:54:32.413 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\new1.xml]
+27-Jan-2024 20:54:32.414 WARNING [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/tinhtoan] in deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\new1.xml] has been ignored
+27-Jan-2024 20:54:32.466 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\new1.xml] has finished in [52] ms
+27-Jan-2024 21:02:20.215 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/new1]
+27-Jan-2024 21:02:20.222 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.xml]
+27-Jan-2024 21:02:20.223 WARNING [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/tinhtoan] in deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.xml] has been ignored
+27-Jan-2024 21:02:20.245 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.xml] has finished in [23] ms
+27-Jan-2024 21:02:20.248 INFO [http-nio-8080-exec-23] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tinhtoan]] after start() had already been called. The second call will be ignored.
+27-Jan-2024 21:04:14.083 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tinhtoan]
+27-Jan-2024 21:04:14.089 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.xml]
+27-Jan-2024 21:04:14.089 WARNING [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/tinhtoan.html] in deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.xml] has been ignored
+27-Jan-2024 21:04:14.113 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.xml] has finished in [24] ms
+27-Jan-2024 21:04:19.312 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tinhtoan]
+27-Jan-2024 21:04:19.319 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.html.xml]
+27-Jan-2024 21:04:19.320 WARNING [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/tinhtoan.html] in deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.html.xml] has been ignored
+27-Jan-2024 21:04:19.340 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.html.xml] has finished in [21] ms
+27-Jan-2024 21:04:19.344 INFO [http-nio-8080-exec-33] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tinhtoan.html]] after start() had already been called. The second call will be ignored.
+27-Jan-2024 21:08:37.627 INFO [http-nio-8080-exec-47] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tinhtoan.html]
+27-Jan-2024 21:08:37.634 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.html.xml]
+27-Jan-2024 21:08:37.635 WARNING [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/tinhtoan.html] in deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.html.xml] has been ignored
+27-Jan-2024 21:08:37.655 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.html.xml] has finished in [21] ms
+27-Jan-2024 21:08:37.658 INFO [http-nio-8080-exec-39] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tinhtoan.html]] after start() had already been called. The second call will be ignored.
+27-Jan-2024 21:31:54.694 INFO [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tinhtoan.html]
+27-Jan-2024 21:31:54.704 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.html.xml]
+27-Jan-2024 21:31:54.708 WARNING [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/TestDemoWeb] in deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.html.xml] has been ignored
+27-Jan-2024 21:31:54.793 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\tinhtoan.html.xml] has finished in [88] ms
+27-Jan-2024 21:31:58.894 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tinhtoan.html]
+27-Jan-2024 21:31:58.903 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\TestDemoWeb.xml]
+27-Jan-2024 21:31:58.904 WARNING [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/TestDemoWeb] in deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\TestDemoWeb.xml] has been ignored
+27-Jan-2024 21:31:58.928 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.1.17\conf\Catalina\localhost\TestDemoWeb.xml] has finished in [25] ms
+27-Jan-2024 21:31:58.932 INFO [http-nio-8080-exec-50] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TestDemoWeb]] after start() had already been called. The second call will be ignored.
+27-Jan-2024 21:37:04.454 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TestDemoWeb] has started
+27-Jan-2024 21:37:04.484 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TestDemoWeb] is completed
+27-Jan-2024 21:43:42.173 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TestDemoWeb] has started
+27-Jan-2024 21:43:42.206 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TestDemoWeb] is completed
+27-Jan-2024 21:43:42.272 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TestDemoWeb] has started
+27-Jan-2024 21:43:42.298 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TestDemoWeb] is completed
+27-Jan-2024 21:48:12.538 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TestDemoWeb] has started
+27-Jan-2024 21:48:12.572 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TestDemoWeb] is completed
+27-Jan-2024 22:27:28.658 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Jan-2024 22:27:28.659 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Jan-2024 22:27:28.680 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Jan-2024 22:27:28.724 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Jan-2024 22:27:28.759 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
