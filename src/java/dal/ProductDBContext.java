@@ -19,6 +19,10 @@ import model.Product;
 
 public class ProductDBContext extends DBContext {
 
+    public void setConnection(Connection connection) {
+        this.connection = connection;
+    }
+
     public List<Product> getAllProducts() {
         List<Product> list = new ArrayList<>();
         try {
@@ -131,26 +135,23 @@ public class ProductDBContext extends DBContext {
 //        }
 //        return list;
 //    }
-    
-    
     // count
-    public int  getTotalQuantity() {
+    public int getTotalQuantity() {
         int totalQuantity = 0;
         try {
 
             String sql = "SELECT COUNT(*) as total FROM product ";
             PreparedStatement stm = connection.prepareStatement(sql);
             ResultSet rs = stm.executeQuery();
-             if (rs.next()) {
-            totalQuantity = rs.getInt("total");
-        }
+            if (rs.next()) {
+                totalQuantity = rs.getInt("total");
+            }
         } catch (SQLException ex) {
             Logger.getLogger(CategoryDBContext.class.getName()).log(Level.SEVERE, null, ex);
         }
         return totalQuantity;
     }
 
-    
     public List<Product> getProductsByCategoryId(int categoryId) {
         List<Product> list = new ArrayList<>();
         try {
@@ -360,26 +361,13 @@ public class ProductDBContext extends DBContext {
         return list;
     }
 
-    public void inSertProduct(Product product) {
+   public void inSertProduct(Product product) {
         try {
-            String sql = "INSERT INTO [product]\n"
-                    + "           ([name]\n"
-                    + "           ,[image]\n"
-                    + "           ,[price]\n"
-                    + "           ,[title]\n"
-                    + "           ,[description]\n"
-                    + "           ,[cateID]\n"
-                    + "           ,[sell_ID])\n"
-                    + "     VALUES\n"
-                    + "           (?\n"
-                    + "           ,?\n"
-                    + "           ,?\n"
-                    + "           ,?\n"
-                    + "           ,?\n"
-                    + "           ,?\n"
-                    + "           ,?)";
+            String sql = "INSERT INTO [product] ([name], [image], [price], [title], [description], [cateID], [sell_ID]) " +
+                         "VALUES (?, ?, ?, ?, ?, ?, ?)";
 
-            PreparedStatement stm = connection.prepareStatement(sql);
+            // Sử dụng RETURN_GENERATED_KEYS để lấy ID được tạo tự động
+            PreparedStatement stm = connection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS);
             stm.setString(1, product.getName());
             stm.setString(2, product.getImageUrl());
             stm.setDouble(3, product.getPrice());
@@ -388,10 +376,17 @@ public class ProductDBContext extends DBContext {
             stm.setInt(6, product.getCategoryId());
             stm.setInt(7, product.getSell_ID());
             stm.executeUpdate();
+
+            // Lấy ID được tạo tự động
+            ResultSet generatedKeys = stm.getGeneratedKeys();
+            if (generatedKeys.next()) {
+                product.setId(generatedKeys.getInt(1));
+            }
         } catch (SQLException ex) {
-            Logger.getLogger(CategoryDBContext.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ProductDBContext.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+
 
     public void deleteProduct(int id) {
         try {
@@ -428,7 +423,6 @@ public class ProductDBContext extends DBContext {
         } catch (SQLException ex) {
             Logger.getLogger(CategoryDBContext.class.getName()).log(Level.SEVERE, null, ex);
         }
-
     }
 
     public List<Product> getAllProductsLast() {

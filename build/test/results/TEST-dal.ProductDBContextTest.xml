@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="DESKTOP-492C1R2" name="dal.ProductDBContextTest" skipped="0" tests="4" time="1.192" timestamp="2024-06-27T00:53:19">
+<testsuite errors="0" failures="7" hostname="DESKTOP-492C1R2" name="dal.ProductDBContextTest" skipped="0" tests="22" time="1.695" timestamp="2024-06-28T02:13:55">
   <properties>
     <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans-17\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
     <property name="javac.test.classpath" value="D:\AzanShop (1)\AzanShop\lib\jakarta.servlet.jsp.jstl-2.0.0.jar:D:\AzanShop (1)\AzanShop\lib\jakarta.servlet.jsp.jstl-api-2.0.0.jar:D:\AzanShop (1)\AzanShop\lib\jaxb-api-2.1.jar:D:\AzanShop (1)\AzanShop\lib\sqljdbc42.jar:D:\AzanShop (1)\AzanShop\lib\jakarta.servlet.jsp.jstl-2.0.0.jar:D:\AzanShop (1)\AzanShop\lib\jakarta.servlet.jsp.jstl-api-2.0.0.jar:D:\AzanShop (1)\AzanShop\lib\jaxb-api-2.1.jar:D:\AzanShop (1)\AzanShop\lib\sqljdbc42.jar:D:\AzanShop (1)\AzanShop\lib\sqljdbc42.jar:build/web/WEB-INF/classes:C:\Program Files\NetBeans-17\netbeans\platform\modules\ext\junit-4.13.2.jar:C:\Program Files\NetBeans-17\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
@@ -19,7 +19,7 @@
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="do.war.package.with.custom.manifest" value="true" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner dal.ProductDBContextTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\AzanShop (1)\AzanShop\build\test\results\TEST-dal.ProductDBContextTest.xml crashfile=D:\AzanShop (1)\AzanShop\build\junitvmwatcher7700140999817816872.properties propsfile=D:\AzanShop (1)\AzanShop\build\junit5101769309358129553.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner dal.ProductDBContextTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\AzanShop (1)\AzanShop\build\test\results\TEST-dal.ProductDBContextTest.xml crashfile=D:\AzanShop (1)\AzanShop\build\junitvmwatcher7707370012627471417.properties propsfile=D:\AzanShop (1)\AzanShop\build\junit16646984374828169080.properties" />
     <property name="jdk.debug" value="release" />
     <property name="j2ee.platform.embeddableejb.classpath" value="" />
     <property name="libs.spring-framework300.src" value="" />
@@ -441,16 +441,70 @@
     <property name="libs.javaee-web-api-7.0.src" value="" />
     <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans-17\netbeans\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans-17\netbeans\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-17\netbeans\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
   </properties>
-  <testcase classname="dal.ProductDBContextTest" name="testUpdateProduct" time="0.134" />
-  <testcase classname="dal.ProductDBContextTest" name="testInsertProduct" time="0.064" />
-  <testcase classname="dal.ProductDBContextTest" name="testDeleteProduct" time="0.235" />
-  <testcase classname="dal.ProductDBContextTest" name="testGetAllProducts" time="0.085" />
-  <system-out><![CDATA[updateProduct
-insertProduct
+  <testcase classname="dal.ProductDBContextTest" name="testInsertProductWithNonExistentCategoryId" time="0.137">
+    <failure message="Expected exception: java.sql.SQLException" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected exception: java.sql.SQLException
+</failure>
+  </testcase>
+  <testcase classname="dal.ProductDBContextTest" name="testInsertProductEmpty" time="0.039" />
+  <testcase classname="dal.ProductDBContextTest" name="testUpdateProductEmpty" time="0.094">
+    <failure message="Expected exception: java.lang.IllegalArgumentException" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected exception: java.lang.IllegalArgumentException
+</failure>
+  </testcase>
+  <testcase classname="dal.ProductDBContextTest" name="testInsertProductWithDecimalPrice" time="0.054" />
+  <testcase classname="dal.ProductDBContextTest" name="testInsertProductNull" time="0.044" />
+  <testcase classname="dal.ProductDBContextTest" name="testInsertProductWithExceedingMaxMoneyValue" time="0.11">
+    <failure message="Expected exception: java.sql.SQLException" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected exception: java.sql.SQLException
+</failure>
+  </testcase>
+  <testcase classname="dal.ProductDBContextTest" name="testDeleteProductWithNullId" time="0.043" />
+  <testcase classname="dal.ProductDBContextTest" name="testGetProductByCategoryIDNotExist" time="0.05" />
+  <testcase classname="dal.ProductDBContextTest" name="testUpdateProductNull" time="0.025" />
+  <testcase classname="dal.ProductDBContextTest" name="testGetProductByCategoryIDNull" time="0.022" />
+  <testcase classname="dal.ProductDBContextTest" name="testDeleteValidProduct" time="0.03" />
+  <testcase classname="dal.ProductDBContextTest" name="testInsertDuplicateProduct" time="0.04">
+    <failure message="Expected exception: java.sql.SQLException" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected exception: java.sql.SQLException
+</failure>
+  </testcase>
+  <testcase classname="dal.ProductDBContextTest" name="testInsertValidProduct" time="0.02" />
+  <testcase classname="dal.ProductDBContextTest" name="testUpdateValidProduct" time="0.028" />
+  <testcase classname="dal.ProductDBContextTest" name="testDeleteProductWithNegativeId" time="0.028">
+    <failure message="Expected exception: java.sql.SQLException" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected exception: java.sql.SQLException
+</failure>
+  </testcase>
+  <testcase classname="dal.ProductDBContextTest" name="testGetProductByValidCategoryID" time="0.034" />
+  <testcase classname="dal.ProductDBContextTest" name="testInsertProductWithMaxPrice" time="0.024" />
+  <testcase classname="dal.ProductDBContextTest" name="testDeleteProductNotExist" time="0.028">
+    <failure message="Expected exception: java.sql.SQLException" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected exception: java.sql.SQLException
+</failure>
+  </testcase>
+  <testcase classname="dal.ProductDBContextTest" name="testGetProductWithNegativeCategoryId" time="0.043" />
+  <testcase classname="dal.ProductDBContextTest" name="testInsertProductWithNegativePrice" time="0.031">
+    <failure message="Expected exception: java.sql.SQLException" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected exception: java.sql.SQLException
+</failure>
+  </testcase>
+  <testcase classname="dal.ProductDBContextTest" name="testInsertProductWithZeroPrice" time="0.029" />
+  <testcase classname="dal.ProductDBContextTest" name="testInsertProductWithMoreThanFourDecimalPlaces" time="0.088" />
+  <system-out><![CDATA[insertProductWithNonExistentCategoryId
+insertProductNull
+UpdateProductEmpty
+insertProductWithDecimalPrice
+insertProductNull
+deleteProductWithNullId
+GetProductByCategoryIDNotExist
+UpdateProductNull
+GetProductByCategoryIDNull
 deleteProduct
-getAllProducts
+insertDuplicateProduct
+insertProduct
+UpdateValidProduct
+deleteProductWithNegativeId
+insertProductWithDecimalPrice
+deleteProductNull
+GetProductWithNegativeCategoryId
+insertProductWithNegativePrice
+insertProductWithZeroPrice
 ]]></system-out>
-  <system-err><![CDATA[Jun 27, 2024 7:53:20 AM dal.ProductDBContext inSertProduct
+  <system-err><![CDATA[Jun 28, 2024 9:13:56 AM dal.ProductDBContext inSertProduct
 SEVERE: null
 com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_product_Category". The conflict occurred in database "AzanDB", table "dbo.Category", column 'cid'.
 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:217)
@@ -462,8 +516,8 @@ com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted
 	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:191)
 	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:166)
 	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:328)
-	at dal.ProductDBContext.inSertProduct(ProductDBContext.java:390)
-	at dal.ProductDBContextTest.testInsertProduct(ProductDBContextTest.java:59)
+	at dal.ProductDBContext.inSertProduct(ProductDBContext.java:378)
+	at dal.ProductDBContextTest.testInsertProductWithNonExistentCategoryId(ProductDBContextTest.java:124)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -472,6 +526,9 @@ com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
@@ -491,9 +548,9 @@ com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted
 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1196)
 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1041)
 
-Jun 27, 2024 7:53:20 AM dal.ProductDBContext inSertProduct
+Jun 28, 2024 9:13:56 AM dal.ProductDBContext inSertProduct
 SEVERE: null
-com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_product_Category". The conflict occurred in database "AzanDB", table "dbo.Category", column 'cid'.
+com.microsoft.sqlserver.jdbc.SQLServerException: Arithmetic overflow error for type money, value = 922337203685477.620000.
 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:217)
 	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1655)
 	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:440)
@@ -503,8 +560,8 @@ com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted
 	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:191)
 	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:166)
 	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:328)
-	at dal.ProductDBContext.inSertProduct(ProductDBContext.java:390)
-	at dal.ProductDBContextTest.testDeleteProduct(ProductDBContextTest.java:122)
+	at dal.ProductDBContext.inSertProduct(ProductDBContext.java:378)
+	at dal.ProductDBContextTest.testInsertProductWithExceedingMaxMoneyValue(ProductDBContextTest.java:217)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -513,6 +570,52 @@ com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:534)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1196)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1041)
+
+Jun 28, 2024 9:13:56 AM dal.ProductDBContext inSertProduct
+SEVERE: null
+com.microsoft.sqlserver.jdbc.SQLServerException: Arithmetic overflow error for type money, value = 922337203685477.620000.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:217)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1655)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:440)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:385)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7505)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2445)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:191)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:166)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:328)
+	at dal.ProductDBContext.inSertProduct(ProductDBContext.java:378)
+	at dal.ProductDBContextTest.testInsertProductWithMaxPrice(ProductDBContextTest.java:199)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
