@@ -20,9 +20,9 @@ public class ProductDBContextTest {
     public static void setUpClass() throws ClassNotFoundException, SQLException {
         // Thiết lập kết nối đến cơ sở dữ liệu (trước khi các test case chạy)
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        String url = "jdbc:sqlserver://localhost:1433;databaseName=AzanDB";
+        String url = "jdbc:sqlserver://localhost:1433;databaseName=azanDB";
         String user = "sa";
-        String password = "123";
+        String password = "123456";
         connection = DriverManager.getConnection(url, user, password);
 
         // Bắt đầu transaction để đảm bảo các thay đổi không ảnh hưởng đến dữ liệu thực

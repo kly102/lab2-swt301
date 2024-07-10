@@ -120,4 +120,8 @@ public class CategoryDBContext extends DBContext { //thao tác với bảng cate
         }
     }
 
+    void deleteCategory(Category category) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
 }
